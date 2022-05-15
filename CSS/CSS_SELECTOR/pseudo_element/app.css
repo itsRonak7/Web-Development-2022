@@ -1,0 +1,14 @@
+p::first-letter{
+    color: red;
+    font-size: 30px;
+    font-weight: 500px;
+}
+
+p::first-line{
+    color: blue;
+}
+
+/*This works when you select something from the paragraph*/
+p::selection{
+    background-color:darkorange;
+}

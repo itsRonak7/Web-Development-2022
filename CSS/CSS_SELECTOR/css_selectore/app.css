@@ -1,0 +1,71 @@
+/*
+*{
+    background-color: pink;
+}*/
+
+/*
+button{
+    background-color: black;
+    color:white;
+}
+*/
+
+.two{
+    background-color: #708B75;
+    color: pink;
+    border-radius: 10px;
+}
+
+#one{
+    background-color: #708B75;
+    color: pink;
+    border-radius: 20px;   
+}
+
+
+h1,h2{
+    color:dodgerblue;
+}
+
+#search{
+    background-color: lightblue;
+}
+
+/*This is gona effect all the a tag*/
+/*
+a{
+    background-color: red;
+}
+*/
+
+/*This gona effect only a tags that  nested inside the p tag*/
+p a{
+    background-color: red;
+}
+/*This gona effect only a tag nested inside the li tag*/
+li a{
+    background-color: aquamarine;
+}
+
+
+
+/*This gona effect all button who comes immediately after the h2 tag*/
+h2 + button{
+    background-color: magenta;
+}
+
+/*This gona effect only li that comes immediately after div tag*/
+div > li {
+    background-color: red;
+}
+
+
+/*Target Selector*/
+input[type="text"]{
+    background-color: aqua;
+}
+
+/*This only select the a tag which contain google*/
+a[href*="contact"]{
+    background-color:dodgerblue;
+}

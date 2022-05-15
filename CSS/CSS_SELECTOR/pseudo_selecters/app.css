@@ -1,0 +1,23 @@
+.hover:hover {
+    background-color: black;
+    color: white;
+}
+
+.btu button:hover {
+    width: 200px;
+    background-color: red;
+    color: yellow;
+}
+
+.active button:active{
+    background-color: lightslategray;
+}
+
+h1:hover{
+    text-decoration: wavy underline;
+}
+
+.select:nth-of-type(2){
+    background-color: red;
+}
+
