@@ -1,0 +1,16 @@
+span{
+    background-color:aliceblue;
+    border: 1px solid black;
+    width: 200px;
+    padding: 50px;
+    margin: 50px;
+}
+
+div{
+    width: 150px;
+    height: 150px;
+    background-color: olivedrab;
+    border: 5px solid black;
+    margin: 20px;
+    display: inline-block;
+}
