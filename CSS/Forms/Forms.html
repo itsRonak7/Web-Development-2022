@@ -1,0 +1,198 @@
+<html>
+
+<head>
+    <title>Forms Demo</title>
+    <link rel="stylesheet" href="../Style/style.css">
+</head>
+
+<body>
+
+    <h1>Forms Demo</h1>
+
+    <button>OUTSIDE OF FORM</button>
+
+    <form action="/https://google.com">
+
+        <!--Link for more input type -->
+        <!--https://developer.mozilla.org/enUS/docs/Web/HTML/Element/input-->
+
+
+        <!--Form Inputs Types-->
+        <input type="text" placeholder="Enter Your Name">
+        <input type="password" placeholder="Enter Your Password">
+        <input type="file">
+        <input type="color">
+        <input type="range">
+        <input type="search">
+        <input type="time">
+        <input type="month">
+        <input type="submit">
+        <input type="reset">
+
+        <br><br><br>
+        <hr>
+        <hr>
+        <!--Form Labels-->
+
+        <h1>Form Label</h1>
+
+        <p>
+            <label for="username">Enter a Username:</label>
+            <input type="text" id="username" placeholder="Username" name="username">
+        </p>
+        <p>
+            <label for="password">Enter a Password:</label>
+            <input type="password" id="password" placeholder="Enter a Password" name="password">
+        </p>
+        <p>
+            <label for="color">Enter a Color:</label>
+            <input type="color" id="color" name="color">
+        </p>
+
+        <!--Alternative way to lable an input (less common)-->
+
+        <lable>
+            Enter A Number:
+            <input type="number" placeholder="Enter a Number" name="number">
+        </lable>
+
+        <!--Button-->
+        <button type="button">DO NOTHING</button>
+        <button>Submit</button>
+        <input type="submit" value="Comes Form Input">
+    </form>
+
+    <button>Outside of a Form Button</button>
+
+    <br><br><br>
+    <hr>
+    <hr>
+
+    <!-- "Hijacking" Google & Reddit's Search -->
+
+    <h1>Reddit Search</h1>
+    <form action="https://www.reddit.com/search">
+        <input type="text" name="q">
+        <button>Search on Reddit</button>
+    </form>
+
+    <h1>Google Search</h1>
+    <form action="https://www.google.com/search">
+        <input type="text" name="q">
+        <button>Search on Google</button>
+    </form>
+
+    <h1>YouTube Search</h1>
+    <form action="https://www.youtube.com/results">
+        <input type="text" name="search_query">
+        <button>Search on YouTube</button>
+    </form>
+
+    <hr>
+    <hr>
+    <br><br><br>
+    <hr>
+    <hr>
+    <!--Form With CheckBox & Radio Button-->
+
+    <h1>CheckBox</h1>
+    <form action="/birds">
+        <input type="checkbox" name="agree_tos" id="agree" checked>
+        <label for="agree">I agree with everythings!!</label>
+        <button>submit</button>
+    </form>
+
+    <form action="/birds">
+        <h1>Radio Button</h1>
+        <p>
+            <label for="xs">XS: </label>
+            <input type="radio" name="size" id="xs" value="xs">
+            <label for="s">S:</label>
+            <input type="radio" name="size" id="s" value="s">
+            <label for="m">M:</label>
+            <input type="radio" name="size" id="m" value="m">
+        </p>
+        <button>submit</button>
+
+        <input type="reset">
+    </form>
+
+    <br><br><br>
+    <hr>
+    <hr>
+    <!--Form Select & Option Element-->
+
+
+    <form action="/birds">
+        <h4>Not Pre Selected</h4>
+        <p>
+            <label for="meal">Please Select an Entree</label>
+            <select name="meal" id="meal">
+                <option value="">Select Your Meal</option>
+                <option value="fish">Fish</option>
+                <option value="veg">Vegetarian</option>
+                <option value="steak">Steak</option>
+            </select>
+        </p>
+        <button>Submit</button>
+
+        <h4>Pre Selected</h4>
+        <p>
+            <label for="">Please Select an Entree</label>
+            <select name="meal" id="meal">
+                <option value="fish">Fish</option>
+                <option value="veg" selected>Vegetarian</option>
+                <option value="steak">Steak</option>
+            </select>
+        </p>
+        <button>Submit</button>
+    </form>
+
+
+    <!--Range & Number Form Attribute-->
+    <h4>Range Input</h4>
+    <form action="/birds">
+        <label for="cheese">Amount of chess:</label>
+        <input type="range" id="chesse" name="chess_lavel" min="1" max="100" step="4" value="45">
+
+        <label for="number">Enter a Number</label>
+        <input type="number" id="number" value="34" min="10" max="100" name="number_lavel">
+        <br>
+        <label for="request">Any Special Request?</label>
+        <textarea name="textarea" id="request" placeholder="Type Something here!!" cols="20"></textarea>
+
+        <br>
+        <button>submit</button>
+    </form>
+
+    <br><br>
+    <hr>
+    <hr>
+    <!--Form Validation-->
+
+    <h1>Form Validation</h1>
+    <form action="/birds">
+
+        <label for="first">Enter First Name</label>
+        <input type="text" name="first" id="first" required><br>
+        <label for="last">Enter First Last</label>
+        <input type="text" name="last" id="last"><br>
+
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" minlength="5" maxlength="10" required>
+        <br>
+
+        <label for="email">Enter Email</label>
+        <input type="email" id="email" required>
+        <br>
+        <label for="url">Enter Url</label>
+        <input type="url" id="url" required>
+
+
+
+        <br><button>submit</button>
+
+
+    </form>
+
+</body></html>
