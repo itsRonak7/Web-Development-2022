@@ -1,0 +1,37 @@
+button:hover{
+    background-color:azure;
+    font-size: 10px;
+}
+
+.post button:hover{
+    background-color: brown;
+    font-size: 20px;
+}
+
+button{
+    background-color: aquamarine;
+}
+
+.post button{
+    background-color: bisque
+}
+
+#one:hover{
+    background-color: dimgray;
+    color: white;
+    padding: 20px;
+}
+
+/*When you use third party library then this could be helpful*/
+button{
+    background-color: lightpink !important;
+}
+
+form{
+    color:deepskyblue;
+}
+
+/*This gona inherit color form the parent(form)*/
+form button{
+    color: inherit;
+}
