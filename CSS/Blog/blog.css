@@ -1,0 +1,30 @@
+body{
+	border: 20px solid gray;
+	max-width: 700px;
+	margin: 20px auto;
+	padding: 20px;
+	width: 80%;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+
+
+.date{
+	color: #25bff7;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+.quote{
+	border-left: 3px solid gray;
+	padding-left: 7px;
+}
+
+
+
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
