@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Typing Animation</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>I'm <span class="auto-type"></span></h1>
+    </div>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings: ["Ronak..", "Web Developer", "Designer"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true
+        })
+    </script>
+    
+</body>
+</html>
