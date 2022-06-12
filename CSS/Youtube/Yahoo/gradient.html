@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient</title>
+
+    <style>
+
+        body{
+            font-family:Georgia, 'Times New Roman', Times, serif;
+        }
+
+        #linear{
+            width: 800px;
+            height: 300px;
+            padding: 30px;
+            border: 3px solid black;
+            /* background: linear-gradient(red,yellow); */
+            /* background: linear-gradient(to right, red,yellow); */
+            /* background: linear-gradient(to left, red,yellow); */
+            /* background: linear-gradient(to bottom right, red,yellow); */
+            /* background: linear-gradient(to bottom left, red,yellow); */
+            /* background: linear-gradient(to top right, red,yellow); */
+            /* background: linear-gradient(to top left, red,yellow); */
+            /* background: linear-gradient(45deg, red,yellow); */
+
+            /* background: linear-gradient(rgb(255, 0, 128),rgba(255,10,0,0)); */
+
+            
+            background: linear-gradient( to right,red,yellow,blue,pink);
+
+            /* You Can also give color in rgb or hexadecimal or rgba */
+        }
+
+        #repeat{
+            width: 800px;
+            height: 300px;
+            padding: 30px;
+            margin-top: 20px;
+            border: 3px solid black;
+            /* background: repeating-linear-gradient(red,yellow 10%, green 20%); */
+            background: repeating-linear-gradient(to right, red 10%,yellow 20%);
+            /* background: repeating-linear-gradient(to left, red,yellow); */
+            /* background: repeating-linear-gradient(to bottom right, red,yellow); */
+            /* background: repeating-linear-gradient(to bottom left, red,yellow); */
+            /* background: repeating-linear-gradient(to top right, red,yellow); */
+            /* background: repeating-linear-gradient(to top left, red,yellow); */
+            /* background: repeating-linear-gradient(45deg, red,yellow); */
+
+            /* background: linear-gradient(rgb(255, 0, 128),rgba(255,10,0,0)); */
+
+            
+            /* background: linear-gradient( to right,red,yellow,blue,pink); */
+
+            /* You Can also give color in rgb or hexadecimal or rgba */
+        }
+
+        #Radial{
+            width: 800px;
+            height: 300px;
+            padding: 30px;
+            margin-top: 20px;
+            border: 3px solid black;
+            /* background: radial-gradient(red, yellow); */
+            /* background: radial-gradient(re   d 5%, yellow 15%, green 60%); */
+            background: radial-gradient(circle, red 5%, yellow 15%, green 60%);
+
+        }
+    </style>
+
+</head>
+<body>
+    <center>
+
+        <h1>CSS Gradient</h1>
+
+        <div id="linear">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam minus praesentium incidunt sunt, optio tempore mollitia exercitationem debitis neque in doloremque omnis ullam natus eum blanditiis itaque laborum! Debitis, impedit.
+        </div>
+
+        <div id="repeat">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam minus praesentium incidunt sunt, optio tempore mollitia exercitationem debitis neque in doloremque omnis ullam natus eum blanditiis itaque laborum! Debitis, impedit.
+        </div>
+
+        <div id="Radial">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores, illum. Tempora voluptate placeat culpa ullam libero laborum expedita cumque doloribus magni dolorem fugit tempore voluptatum velit veniam magnam, quo labore.  
+        </div>
+    </center>
+</body>
+</html>
+
+
+<!-- 
+Different CSS Gradient Types
+    . Linear Gradient   (one side to other side like: right to left , top to bottom)
+    . Radial Gradient   (Gradient start from one point)
+    . Repeating Linear Gradient
+    . Repeating Radial Gradient
+ -->
